@@ -13,17 +13,18 @@
     font-weight: 400;
     font-style: normal;
   }
-  
+
+  ul#email-list .list-group-item:hover {
+    list-style-type: none;
+    color: white; /* Cambia il colore del testo */
+    text-decoration: none; /* Rimuove la sottolineatura */
+  }
   
 
 img {
   max-width: 100%;
 }
 
-
-ul {
-  list-style-type: none;
-}
 
     /* UTILITY */
 
@@ -102,5 +103,9 @@ ul {
 
 
     /* MAIN */
+
+button {
+  min-width: 200px;
+}
 
     /* FOOTER */
